@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.6",
+  "description": "a backend of Youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "Backend"
+  ],
+  "author": "saurab Gautam",
+  "license": "ISC"
+}

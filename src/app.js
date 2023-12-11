@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+const finalhandler = require("finalhandler");
 
 const app = express;
 
@@ -17,4 +18,7 @@ app.use(express.json({ limit: "16kb" })),
 
 app.use(cookieParser());
 
+import userRouter from "./routes/user.router.js";
+
+app.use("/api/v1/register", userRouter);
 export { app };
